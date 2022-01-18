@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@600&family=Merriweather&family=Montserrat:wght@500&family=Sacramento&family=Satisfy&display=swap');
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #E3FDFD;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+ }
+
+
+
+
+
+/* navigation bar */
+.nav
+{   
+    background-color: grey;
+    font-family: 'Satisfy', cursive;
+    padding-top: 0;
+    /* display: flex;
+    display: inline-block; */
+
+}
+.logo
+{
+height: 50px;
+display: inline-block;
+position: absolute;
+top: 20px;
+left: 20px;
+
+}
+.unordered-list, .list-items {
+    display: inline-block;
+}
+.unordered-list{
+    padding: 0;
+    margin-top: 0;
+    position: absolute;
+    right: 20px;
+}
+.list-items{
+    margin: 20px 20px;
+}
+.list-items a{
+    text-decoration: none;
+    color: #2ba192;
+
+}
+
+
+
+/* heading */
+
+
+
+ .container{
+     padding-top: 250px;
+ }
+
+ h1{
+     width: 300px;
+     color: #07ceb3;
+     margin: 0 auto;
+     font-family: 'Sacramento', cursive;
+     font-size: 3.5rem;
+ }
+ h2{
+    color: #07ceb3;
+    padding-top: 65px;
+    width: 200px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+ h3
+ {
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    color: #2ba192;
+ }
+ h4{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size: 1.3rem;
+    color: #2ba192;
+ }
+hr{
+
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    margin: 0 auto;
+    width: 10%;
+    color: grey;
+
+}
+ .container p{
+     padding-top:5px 0;
+     font-size: 1.4rem;
+     color: #2ba192;
+ }
+ 
+.cloud{
+    height: 80px;
+}
+.cloud-top{
+    position: absolute;
+    right: 200px;
+    top: 150px;
+    
+}
+.cloud-bottom{
+    position: absolute; 
+    top:400px;
+    left: 200px;
+}
+
+
+/* middel container */
+
+.middel p{
+    margin: 0 auto;
+    padding: 0;
+    width: 330px;
+    padding-bottom: 40px;
+}
+.owner-img{
+    padding-top: 50px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+p{ 
+
+     font-family: 'Satisfy', cursive;
+    margin: 0 auto;
+    line-height: 2;
+}
+
+.skills-1, .skills-2{
+    width: 50%;
+    text-align: left;
+    margin: 100px auto;
+  
+}
+.skills-image-1{
+    float: left;
+    margin-right: 40px;
+    height: 200px;
+}
+.skills-image-2{
+    float: right;
+    margin-left: 40px;
+    height: 150px;
+    border-radius: 100%;
+    padding: 35px 0;
+}
+.button
+{
+background-color: #07ceb3;
+padding: 7px 15px;
+margin: 40px 20px;
+border-radius: 10px;
+border: none;
+font-size: 14px;
+font-weight: bold;
+color: white;
+cursor: pointer;
+}
+
+.footer p{
+width: 390px;
+}
+.socialmedia{
+text-align: center;
+padding-top: 10px;
+margin-top: 80px;
+background-color:#66BFBF;
+}
+.socialmedia p span{
+    color: #eaf6f6;
+    font-size: 13px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+
+}
+.socialmedia ul li{
+    display: inline-block;
+    padding: 25px 25px;
+}
+.socialmedia ul li a{
+    text-decoration: none;
+    color:#11999e;
+}
